@@ -1,0 +1,36 @@
+.heading{
+  text-align: center;
+  color: #296447;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.frog-container {
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #296447;
+  padding: 15px 9px;
+  background: #e9ebf7;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-bottom: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 11px;
+}
+
+.frog-container:hover {
+  background: #afb5bd;
+}
+
+.third-width {
+  width: 32.9%;
+  display: inline-block;
+}
+
+.photo img{
+  width: 50%;
+}
+
+.main-body{
+  text-align: center;
+  font-family: sans-serif;
+}
