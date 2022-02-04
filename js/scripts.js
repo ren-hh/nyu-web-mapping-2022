@@ -1,3 +1,5 @@
+//these are listeners to respond to button clicks
+
 $('#frog1').on('click', function() {
 	$(".photo").html("<img src='https://live.staticflickr.com/7249/13255580745_5803be80b1_b.jpg'/> <p> Dendrobates auratus ('Green and Black Poison Dart Frog') is the largest poison-dart frog in Costa Rica, with adult females ranging from 27.0-42.0 mm and adult males ranging from 25.0-39.5 mm (Leenders 2001). It is native to Central America, from the Caribbean slopes of southern Nicaragua to extreme eastern Panama, and on the Pacific slopes from the Osa Peninsula, Costa Rica to Colombia (Guyer and Donnelly 2005). It lives in lowlands, primarily rainforest (Caldwell and Summers 2003). It is a shy species, found deep in the forest interior (Leenders 2001). In 1932, it was introduced to Oahu, Hawaii, as a means for mosquito control, and continues to occur there (McKeown 1978, 1996).</p> <p> <a href='https://amphibiaweb.org/cgi/amphib_query?where-genus=Dendrobates&where-species=auratus'>Visit Amphibia Web to learn more</a></p>");
 })
