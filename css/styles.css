@@ -4,30 +4,43 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
-.frog-container {
+/*  source of flex container code: https://www.w3schools.com/csS/css3_flexbox.asp */
+
+.flex-container {
+  display: flex;
+  background-color: #296447;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+}
+
+.flex-container > div {
+
+  margin: 10px;
   border: 1px solid;
   border-radius: 10px;
   border-color: #296447;
   padding: 15px 9px;
-  background: #e9ebf7;
+  background: #f1f1f1;
   font-family: "Comic Sans MS", cursive, sans-serif;
   margin-bottom: 8px;
   cursor: pointer;
-  text-align: center;
   font-size: 11px;
+  width: 20%;
 }
 
-.frog-container:hover {
+/* .flex-container > div :hover {
   background: #afb5bd;
-}
+} */
 
-.third-width {
+/* .third-width {
   width: 32.9%;
   display: inline-block;
-}
+} */
 
 .photo img{
   width: 50%;
+  margin: 30px;
 }
 
 .main-body{

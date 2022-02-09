@@ -1,8 +1,23 @@
 //these are listeners to respond to button clicks
 
 $('#frog1').on('click', function() {
-	$(".photo").html("<img src='https://live.staticflickr.com/7249/13255580745_5803be80b1_b.jpg'/> <p> Dendrobates auratus ('Green and Black Poison Dart Frog') is the largest poison-dart frog in Costa Rica, with adult females ranging from 27.0-42.0 mm and adult males ranging from 25.0-39.5 mm (Leenders 2001). It is native to Central America, from the Caribbean slopes of southern Nicaragua to extreme eastern Panama, and on the Pacific slopes from the Osa Peninsula, Costa Rica to Colombia (Guyer and Donnelly 2005). It lives in lowlands, primarily rainforest (Caldwell and Summers 2003). It is a shy species, found deep in the forest interior (Leenders 2001). In 1932, it was introduced to Oahu, Hawaii, as a means for mosquito control, and continues to occur there (McKeown 1978, 1996).</p> <p> <a href='https://amphibiaweb.org/cgi/amphib_query?where-genus=Dendrobates&where-species=auratus'>Visit Amphibia Web to learn more</a></p>");
+	$(".photo").html("<img src='https://live.staticflickr.com/7249/13255580745_5803be80b1_b.jpg'/> <p> Dendrobates auratus ('Green and Black Poison Dart Frog') is the largest poison-dart frog in Costa Rica, with adult females ranging from 27.0-42.0 mm and adult males ranging from 25.0-39.5 mm (Leenders 2001). It is native to Central America, from the Caribbean slopes of southern Nicaragua to extreme eastern Panama, and on the Pacific slopes from the Osa Peninsula, Costa Rica to Colombia (Guyer and Donnelly 2005). It lives in lowlands, primarily rainforest (Caldwell and Summers 2003). It is a shy species, found deep in the forest interior (Leenders 2001). In 1932, it was introduced to Oahu, Hawaii, as a means for mosquito control, and continues to occur there (McKeown 1978, 1996).</p> <p> <a href='https://amphibiaweb.org/cgi/amphib_query?where-genus=Dendrobates&where-species=auratus'> Visit Amphibia Web to learn more</a></p>");
 })
+
+// var frogObject1 = {
+// 	image:'https://live.staticflickr.com/7249/13255580745_5803be80b1_b.jpg'
+// 	description: "<p> Dendrobates auratus (Green and Black Poison Dart Frog) is the largest poison-dart frog in Costa Rica, with adult females ranging from 27.0-42.0 mm and adult males ranging from 25.0-39.5 mm (Leenders 2001). It is native to Central America, from the Caribbean slopes of southern Nicaragua to extreme eastern Panama, and on the Pacific slopes from the Osa Peninsula, Costa Rica to Colombia (Guyer and Donnelly 2005). It lives in lowlands, primarily rainforest (Caldwell and Summers 2003). It is a shy species, found deep in the forest interior (Leenders 2001). In 1932, it was introduced to Oahu, Hawaii, as a means for mosquito control, and continues to occur there (McKeown 1978, 1996). </p> <p> <a href='https://amphibiaweb.org/cgi/amphib_query?where-genus=Dendrobates&where-species=auratus'>  Visit Amphibia Web to learn more </a></p>"
+//
+// }
+//
+// console.log(frogObject1.image, frogObject1.description)
+//
+// $('#frog1').on('click', function() {
+//
+// 	// $('#content-space').image('frog11.image')
+// 	$('#content-space').html('frog11.description')
+//
+// })
 
 $('#frog2').on('click', function() {
 	$(".photo").html("<img src='https://ssl.c.photoshelter.com/img-get/I0000yzcNXEL9wZE/s/880/880/AH-Lovely-Poison-Frog-Phyllobates-lugubris-Costa-Rica-8497.jpg'/> <p> Phyllobates lugubris ('Striped Poison Dart Frog') occurs in the Caribbean lowlands, from the extreme southeastern tip of Nicaragua through Costa Rica and into northwestern Panama.  It has been found in leaf litter in both primary and secondary forests, preferring to live near slow-moving waters (Guyer and Donnelly 2005). This species exhibits uniparental male care (Weygoldt 1987; Zimmermann and Zimmermann 1988). After the female deposits the eggs in a ground nest, they are periodically moistened by the male parent (hydric brooding) (Savage 2002; Guyer and Donnelly 2005). Once the eggs are hatched, the male transports his offspring to aquatic rearing sites by carrying five to ten tadpoles at a time on his back (Donnelly et al. 1990; Caldwell et al. 1994). In about two months they metamorphose into froglets of about 12 mm (Savage 2002). </p> <p> <a href='https://amphibiaweb.org/cgi/amphib_query?where-genus=Phyllobates&where-species=lugubris'>Visit Amphibia Web to learn more</a></p>");
